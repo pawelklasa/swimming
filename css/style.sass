@@ -1,0 +1,120 @@
+$white: #fff
+$l-grey: #fafafa
+$section-grey: #f5f5f5
+$orange: #f27935
+$o-over: #d0530d
+$o-pressed: #a53c01
+$b-font: 'Open Sans', sans-serif
+
+// global 
+
+body
+  background-color: $l-grey
+  font-family: $b-font
+
+.btn-primary
+  padding: 10px
+  width: 200px
+  font-family: $b-font
+  font-size: 16px
+  background-color: $orange
+  border: 1px solid transparent
+
+.btn-primary:hover
+  background-color: $o-over
+  border: 1px solid transparent
+  
+// navbar
+
+li 
+  margin-right: 50px
+  font-family: $b-font
+
+.navbar .navbar-nav 
+  display: inline-block
+  float: none
+
+.navbar .navbar-collapse 
+  text-align: center
+
+.navbar-default
+  background-color: $white
+  border-top: none
+  border-bottom: none
+  margin-bottom: 0px
+
+.pressed
+  border-top: solid 2px $orange
+  width: 90px
+  background-color: transparent
+
+// main image
+
+.brand 
+  position: absolute
+  width: 100%
+
+.name
+  padding-top: 14px
+  position: relative
+  text-align: center
+  width: 300px
+  height: 60px
+  background-color: $orange
+  margin: auto
+  //opacity: 0.7
+  border-bottom-left-radius: 5px
+  border-bottom-right-radius: 5px
+
+.name h3
+  font-family: $b-font
+  margin: 0 
+  color: $white
+
+.name-mobile
+  display: none
+
+// section 01
+
+hr 
+  border-top: 2px solid $orange
+  margin-top: -3px
+  width: 200px
+
+p 
+  margin-top: 20px
+  margin-bottom: 20px
+  font-family: $b-font
+  font-size: 16px
+
+// media
+
+@media screen and (max-width: 699px) and (min-width: 320px) 
+  .brand 
+    display: none
+
+  .name-mobile
+    display: inline-block
+    float: left
+    z-index: 10
+    h3
+      font-family: $b-font
+      color: $orange
+      margin-top: 10px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
