@@ -15,12 +15,16 @@ body {
   border: 1px solid transparent; }
 
 li {
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "Open Sans", sans-serif; }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f27935; }
 
 .navbar .navbar-collapse {
   text-align: center; }
@@ -51,14 +55,32 @@ li {
   margin: auto;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
-
-.name h3 {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  color: #fff; }
+  .name h3 {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    color: #fff; }
 
 .name-mobile {
   display: none; }
+
+.brand-quote {
+  position: absolute;
+  width: 100%; }
+
+.main-quote {
+  top: 250px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  border: 2px solid #fff;
+  padding: 30px; }
+  .main-quote h3 {
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase; }
 
 hr {
   border-top: 2px solid #f27935;
@@ -78,7 +100,7 @@ p {
   background-color: #fff;
   padding: 20px; }
 
-.fa-user-circle {
+.fa-address-card-o {
   color: #f27935; }
 
 img {
@@ -89,8 +111,18 @@ img {
 .box {
   padding: 10px; }
 
+.number {
+  color: #f27935; }
+
+.home {
+  float: right;
+  margin-right: 10px; }
+
 @media screen and (max-width: 699px) and (min-width: 320px) {
   .brand {
+    display: none; }
+
+  .brand-quote {
     display: none; }
 
   .name-mobile {
