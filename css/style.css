@@ -27,6 +27,7 @@ li {
 
 .navbar-default {
   background-color: #fff;
+  opacity: 0.9;
   border-top: none;
   border-bottom: none;
   margin-bottom: 0px; }
@@ -62,13 +63,31 @@ li {
 hr {
   border-top: 2px solid #f27935;
   margin-top: -3px;
-  width: 200px; }
+  width: 120px; }
 
 p {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px; }
+
+.about {
+  padding: 20px; }
+
+.services {
+  background-color: #fff;
+  padding: 20px; }
+
+.fa-user-circle {
+  color: #f27935; }
+
+img {
+  border-radius-: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.box {
+  padding: 10px; }
 
 @media screen and (max-width: 699px) and (min-width: 320px) {
   .brand {
