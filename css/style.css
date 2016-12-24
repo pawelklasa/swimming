@@ -141,12 +141,19 @@ img {
 .text {
   background-color: #fff; }
 
+.contact {
+  margin-top: 100px; }
+
 @media screen and (max-width: 699px) and (min-width: 320px) {
   .brand {
     display: none; }
 
   .brand-quote {
     display: none; }
+
+  .contact {
+    margin-top: 60px;
+    margin-left: 10px; }
 
   .name-mobile {
     display: inline-block;
@@ -155,6 +162,12 @@ img {
     .name-mobile h3 {
       font-family: "Open Sans", sans-serif;
       color: #f27935;
-      margin-top: 10px; } }
+      margin-top: 10px; }
+
+  .image {
+    margin-top: 50px; }
+
+  .text {
+    padding: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
