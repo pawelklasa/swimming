@@ -1,2 +1,2 @@
-# swimming
-swimming school website
+# Andrzej Gardzielewski 
+## Swimming school website
